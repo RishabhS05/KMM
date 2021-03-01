@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/res/layout/activity_main.xml"
+    }
+]

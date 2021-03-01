@@ -25,6 +25,9 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation("com.google.android.material:material:1.2.1")
+                implementation("androidx.core:core-ktx:1.3.2")
+                implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
+                implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
             }
         }
         val androidTest by getting {
@@ -44,6 +47,9 @@ android {
     defaultConfig {
         minSdkVersion(24)
         targetSdkVersion(29)
+    }
+    buildFeatures {
+        viewBinding=true
     }
 }
 
