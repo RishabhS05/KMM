@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.databinding:viewbinding:4.2.0-beta05] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/17ae9d413cd78323a66a1fc001dd54c7/viewbinding-4.2.0-beta05/AndroidManifest.xml:17:1-22:12
 MERGED from [:shared] /Users/rishabh/AndroidStudioProjects/KMM/shared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.core:core-ktx:1.3.2] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/18690062496f9face3acf4d0804d667d/core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
@@ -38,25 +38,25 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/rishabh/.gradle/
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/e59bc255349fa2e5523ee8d0e19cb5b3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/c1536ea39503288f56ec6c514ed7cf7b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/b74241cdc955e0b49b4caab554a6b261/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
 	package
 		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:70-106
 		INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml
 		INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml
-		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
 		INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml
-		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:1-15:12
 		INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:3:5-13:19
+ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:3:5-14:19
 MERGED from [com.google.android.material:material:1.2.1] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/1c69042676c0286cc02b863a1c489b20/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/1c69042676c0286cc02b863a1c489b20/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/rishabh/.gradle/caches/transforms-2/files-2.1/e061f4bf88e9f6f3af796c5b9bb844e0/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
@@ -87,6 +87,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:10:17-76
 	android:name
 		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:10:27-74
+activity#com.example.kmm.androidApp.MainActivity
+ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:13:9-49
+	android:name
+		ADDED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:13:19-47
 uses-sdk
 INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml

@@ -48,9 +48,9 @@ android {
         minSdkVersion(24)
         targetSdkVersion(29)
     }
-    buildFeatures {
-        viewBinding=true
-    }
+//    buildFeatures {
+//        viewBinding=true
+//    }
 }
 
 val packForXcode by tasks.creating(Sync::class) {

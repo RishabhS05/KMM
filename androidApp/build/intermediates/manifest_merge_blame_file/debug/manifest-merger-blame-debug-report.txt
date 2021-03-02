@@ -11,7 +11,7 @@
 9-->/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:3:5-13:19
+11-->/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:3:5-14:19
 12        android:allowBackup="false"
 12-->/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:4:13-40
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,6 +37,9 @@
 23-->/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:10:27-74
 24            </intent-filter>
 25        </activity>
-26    </application>
-27
-28</manifest>
+26        <activity android:name="com.example.kmm.androidApp.MainActivity" />
+26-->/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:13:9-49
+26-->/Users/rishabh/AndroidStudioProjects/KMM/androidApp/src/main/AndroidManifest.xml:13:19-47
+27    </application>
+28
+29</manifest>

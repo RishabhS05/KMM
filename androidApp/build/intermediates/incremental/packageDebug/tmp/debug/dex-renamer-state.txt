@@ -1,15 +1,15 @@
-#Tue Mar 02 02:21:14 IST 2021
-path.4=0/classes.dex
+#Tue Mar 02 18:51:37 IST 2021
+path.4=9/classes.dex
 path.3=4/classes.dex
 path.2=13/classes.dex
 path.1=11/classes.dex
 renamed.8=classes9.dex
-path.8=9/classes.dex
-path.7=7/classes.dex
-path.6=6/classes.dex
-path.5=11/classes.dex
+path.8=7/classes.dex
+path.7=6/classes.dex
+path.6=11/classes.dex
+path.5=0/classes.dex
 path.0=classes.dex
-base.4=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.4=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex
 base.3=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/4/classes.dex
 base.2=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/13/classes.dex
 base.1=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex
@@ -19,10 +19,10 @@ renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
-base.8=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex
+base.8=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
 renamed.6=classes7.dex
-base.7=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.7=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 renamed.5=classes6.dex
-base.6=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+base.6=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
 renamed.4=classes5.dex
-base.5=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.5=/Users/rishabh/AndroidStudioProjects/KMM/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
