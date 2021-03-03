@@ -3,6 +3,7 @@
     <application
             android:allowBackup="false"
             android:supportsRtl="true"
+        android:label="KMM Demo"
             android:theme="@style/Theme.SimpleLogin">
         <activity android:name=".ui.login.LoginActivity">
             <intent-filter>

@@ -10,6 +10,7 @@ struct ContentView: View {
 
                     
     var body: some View {
+        NavigationView {
         VStack(spacing: 15.0) {
             ValidatedTextField(titleKey: "Username", secured: false, text: $username, errorMessage: viewModel.formState.usernameError,
                                onChange: {
@@ -18,11 +19,17 @@ struct ContentView: View {
             ValidatedTextField(titleKey: "Password", secured: true, text: $password, errorMessage: viewModel.formState.passwordError, onChange: {
                 viewModel.loginDataChanged(username: username, password: password)
             })
-            Button("Login") {
-                viewModel.login(username: username, password: password)
-            }.disabled(!viewModel.formState.isDataValid || (username.isEmpty && password.isEmpty))
-        }
-        .padding(.all).foregroundColor(Color.blue).font(Font.system(size: 20, weight: .medium, design: .serif))
+                        NavigationLink(destination: SecondView()) {
+                                Text("login")
+                                .frame(minWidth: 0, maxWidth: 300)
+                                .padding()
+                                .foregroundColor(.blue)
+                                .font(.title)
+                        }
+                      .disabled(!viewModel.formState.isDataValid || (username.isEmpty && password.isEmpty))
+
+        }.padding(.all).foregroundColor(Color.blue).font(Font.system(size: 20, weight: .medium, design: .serif))
+    }
     }
 }
 
@@ -113,3 +120,19 @@ extension ContentView {
         }
     }
 }
+struct SecondView: View {
+    var body: some View {
+        ZStack {
+            Text("Hello,\(Platform().platform)")
+            .font(.largeTitle)
+            .fontWeight(.medium)
+            .foregroundColor(Color.blue)
+    }.navigationBarBackButtonHidden(true)
+    }
+}
+struct SecondView_Previews: PreviewProvider {
+    static var previews: some View {
+        SecondView()
+    }
+}
+
