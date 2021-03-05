@@ -22,6 +22,7 @@ kotlin {
                 implementation(kotlin("test-annotations-common"))
             }
         }
+        //Add here library for core
         val androidMain by getting {
             dependencies {
                 implementation("com.google.android.material:material:1.2.1")
@@ -52,7 +53,7 @@ android {
 //        viewBinding=true
 //    }
 }
-
+// This will generate shared module an custom framework xcode
 val packForXcode by tasks.creating(Sync::class) {
     group = "build"
     val mode = System.getenv("CONFIGURATION") ?: "DEBUG"
